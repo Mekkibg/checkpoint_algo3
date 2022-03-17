@@ -1,0 +1,10 @@
+PROCEDURE Dot_product(var x1:array_of integer, var x2:array_of integer)
+VAR
+    i : INTEGER;
+    ps : FLOAT;
+BEGIN
+    for i from 1 to 3 do
+    ps += x1[i]*x2[i];
+    end_for
+    return(ps)
+END

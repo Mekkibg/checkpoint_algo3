@@ -1,0 +1,23 @@
+ALGORITHM Dot_product
+VAR
+    v1 : Array_of FLOAT[3]
+    v2 : Array_of FLOAT[3]
+    ps_retour : FLOAT;
+BEGIN
+    FOR i FROM 1 TO 3 DO
+    Read(V1[i]);
+    END_FOR
+    FOR i FROM 1 TO 3 DO
+    Read(V2[i]);
+    END_FOR
+
+
+    for i from 1 to n do
+    ps_retour := dot_product(v1[i],v2[i]);
+    if (ps_retour = 0)then
+    return "orthogonal"
+    else
+    return "non-orthogonal"
+    end_if
+    end_for
+END
